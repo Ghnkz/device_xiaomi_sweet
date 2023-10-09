@@ -39,13 +39,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 114980532224
 BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # (BOARD_SUPER_PARTITION_SIZE - 4194304) 4MiB overhead
 
 # Properties
-<<<<<<< HEAD
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-=======
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
->>>>>>> 601fdde (sweet: Get rid of libinit)
 
 # Screen density
 TARGET_SCREEN_DENSITY := 440
