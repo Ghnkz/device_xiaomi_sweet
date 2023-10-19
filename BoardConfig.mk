@@ -20,10 +20,6 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
-DEVICE_MANIFEST_SKUS += sweet
-DEVICE_MANIFEST_SWEET_FILES := \
-    $(DEVICE_MANIFEST_FILE) \
-    $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
