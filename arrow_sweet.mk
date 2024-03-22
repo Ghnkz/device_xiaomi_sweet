@@ -28,3 +28,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_INCLUDE_PIXEL_CHARGER := true
 DEVICE_MAINTAINER := 『リュウᯓ』
 DEVICE_MAINTAINER_LINK := https://t.me/Discussion_Verse
+
+BUILD_FINGERPRINT := Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
