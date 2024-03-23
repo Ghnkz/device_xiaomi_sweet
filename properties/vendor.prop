@@ -16,4 +16,6 @@ vendor.display.override_doze_mode=1
 
 # Fluence
 ro.vendor.audio.sdk.fluencetype=fluence
->>>>>>> c30dfe1 (sweet: Move libqti-perfd-client to common)
+
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
