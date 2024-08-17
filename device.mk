@@ -16,7 +16,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Audio
 PRODUCT_PACKAGES += \
-    libtinycompress \
     sku_sweet_audio_symlink
 
 PRODUCT_COPY_FILES += \
@@ -25,10 +24,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_dynamic.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_overlay_static.xml \
     $(LOCAL_PATH)/configs/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml
-
-# Camera
-PRODUCT_PACKAGES += \
-    libpiex_shim
 
 # Display
 PRODUCT_COPY_FILES += \
