@@ -7,6 +7,9 @@
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/sweet-miuicamera/products/board.mk
+
 DEVICE_PATH := device/xiaomi/sweet
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
@@ -26,9 +29,6 @@ ODM_MANIFEST_SWEET_FILES := \
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
-
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/sweet.config
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
