@@ -13,4 +13,6 @@ git clone https://github.com/Ghnkz/vendor_xiaomi_sweet-miuicamera vendor/xiaomi/
 
 git clone https://github.com/Ghnkz/android_packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 
+git clone https://github.com/Ghnkz/sony_vendor_dolby vendor/dolby
+
 rm -rf hardware/xiaomi && git clone https://github.com/PixelOS-AOSP/hardware_xiaomi -b thirteen hardware/xiaomi
