@@ -3,7 +3,7 @@
 # Cloning dependencies
 git clone https://github.com/Ghnkz/device_xiaomi_sm6150-common -b arrow-13.1 device/xiaomi/sm6150-common
 
-git clone https://github.com/Ghnkz/vendor_xiaomi_sm6150-common -b arrow-13.1 vendor/xiaomi/sm6150-common
+git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_sm6150-common -b lineage-20 vendor/xiaomi/sm6150-common
 
 git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_sweet -b lineage-20 vendor/xiaomi/sweet
 
