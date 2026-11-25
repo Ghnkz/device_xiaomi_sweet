@@ -15,4 +15,6 @@ git clone https://github.com/Ghnkz/android_packages_apps_ViPER4AndroidFX package
 
 git clone https://github.com/Ghnkz/sony_vendor_dolby vendor/dolby
 
+git clone https://github.com/MinamiQuartet/minami-sign -b keys vendor/lineage-priv/keys
+
 rm -rf hardware/xiaomi && git clone https://github.com/PixelOS-AOSP/hardware_xiaomi -b thirteen hardware/xiaomi
