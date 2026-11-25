@@ -5,7 +5,7 @@ git clone https://github.com/Ghnkz/device_xiaomi_sm6150-common -b arrow-13.1 dev
 
 git clone https://github.com/Ghnkz/vendor_xiaomi_sm6150-common -b arrow-13.1 vendor/xiaomi/sm6150-common
 
-git clone https://github.com/Ghnkz/vendor_xiaomi_sweet -b arrow-13.1 vendor/xiaomi/sweet
+git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_sweet -b lineage-20 vendor/xiaomi/sweet
 
 git clone https://github.com/Ghnkz/kernel_xiaomi_sm6150 -b bka kernel/xiaomi/sm6150
 
