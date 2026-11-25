@@ -9,7 +9,7 @@ git clone https://github.com/xiaomi-sm6150/proprietary_vendor_xiaomi_sweet -b li
 
 git clone https://github.com/Ghnkz/kernel_xiaomi_sm6150 -b bka kernel/xiaomi/sm6150
 
-git clone https://github.com/unmoved21/vendor_xiaomi_sweet-miuicamera -b fourteen vendor/xiaomi/sweet-miuicamera
+git clone https://gitlab.com/unsatifsed27/miuicamera -b leica vendor/xiaomi/sweet-miuicamera
 
 git clone https://github.com/Ghnkz/android_packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 
